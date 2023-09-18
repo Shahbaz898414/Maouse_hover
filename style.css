@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mousebox {
+  width:250px;
+  /* height: 20px; */
+  border: 3px solid black;
+  margin: 40px;
+  border-radius: 10px;
+  font-size: 30px;
+  text-align: center;
+  position: relative;
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.mousebox h4 {
+  position: absolute;
+  top:-80%;
+  left:20%;
+  font-size: 18px;
+  margin-bottom: 10px;
+  height: 250px;
+}
